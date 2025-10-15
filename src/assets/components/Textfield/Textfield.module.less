@@ -1,0 +1,38 @@
+.textLabel {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    span {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .text {
+            .tp3();
+            color: @blue800;
+        }
+    }
+}
+
+.textfield {
+    text-align: left;
+    border: 1px solid @grey;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    border-radius: 0.5rem;
+    color: @blue800;
+    .tp2r();
+    /** Add borders, padding, text styling, corners etc. here. */
+}
+.textfield::placeholder {
+    opacity: 0.5;
+}
+.textfield.error {
+    background-color: @red100;
+    border: 1px solid red;
+}
+
+.textfield:active, .textfield:focus-visible {
+    border: 1px solid @blue800;
+}

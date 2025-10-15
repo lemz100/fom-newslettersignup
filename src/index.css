@@ -15,11 +15,10 @@ input[type=radio], input[type=checkbox] {
 }
 */
 
-/** Removes odd yellow line - remove comment to use
+
 input:focus-visible {
   outline: none;
 }
-*/
 
 /** Removes odd black line on keyboard focusing on buttons - uncomment to use. 
 .button:focus-visible {
